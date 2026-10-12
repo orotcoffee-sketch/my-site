@@ -7,15 +7,15 @@
 body {
   font-family: "Pretendard", "Malgun Gothic", sans-serif;
   line-height: 1.7;
-  color: #2d3142;
-  background: #f7f7fb;
+  color: #4a4458;
+  background: #fdf8fc;
 }
 
 .header {
   text-align: center;
   padding: 80px 20px;
-  color: #fff;
-  background: linear-gradient(135deg, #4f6df5, #8a5cf6);
+  color: #4a4458;
+  background: linear-gradient(135deg, #ffd6e8, #d9ccff, #c6e8ff);
 }
 
 .header h1 {
@@ -38,14 +38,14 @@ body {
   font-size: 1.6rem;
   margin-bottom: 20px;
   padding-bottom: 8px;
-  border-bottom: 3px solid #8a5cf6;
+  border-bottom: 3px solid #f5b5d2;
   display: inline-block;
 }
 
 .likes {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;
   gap: 20px;
 }
 
@@ -54,14 +54,14 @@ body {
   border-radius: 12px;
   padding: 28px 20px;
   text-align: center;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 10px rgba(180, 160, 210, 0.2);
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .card:hover,
 .card.active {
   transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(79, 109, 245, 0.25);
+  box-shadow: 0 8px 20px rgba(200, 160, 220, 0.4);
 }
 
 .emoji {
@@ -79,8 +79,8 @@ body {
   padding: 24px 20px;
   text-align: center;
   font-size: 0.9rem;
-  color: #fff;
-  background: #2d3142;
+  color: #4a4458;
+  background: #e8dff5;
 }
 
 @media (max-width: 480px) {
