@@ -28,6 +28,29 @@ body {
   opacity: 0.9;
 }
 
+.nav {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.nav a {
+  color: #4a4458;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 4px 2px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav a:hover {
+  border-bottom-color: #f5b5d2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .section {
   max-width: 800px;
   margin: 0 auto;
