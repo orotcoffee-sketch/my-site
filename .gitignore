@@ -1,0 +1,7 @@
+# Local credentials - never publish with GitHub Pages
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
