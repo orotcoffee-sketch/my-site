@@ -45,6 +45,13 @@
 @media (max-width:760px){.container{width:min(calc(100% - 36px),620px)}.announce{font-size:10px;padding:8px}.nav{height:65px}.nav-links{display:none}.nav .btn{padding:10px 14px;font-size:11px}.brand-symbol{width:32px;height:32px;border-radius:10px}.brand-text{font-size:21px}.hero-grid{display:flex;flex-direction:column;min-height:unset}.hero-copy{width:100%;padding:48px 0 6px}.hero-copy .eyebrow{margin-bottom:22px;font-size:11px}.hero h1{font-size:clamp(55px,13.5vw,83px)}.hero .lead{font-size:15px;margin:20px 0 22px}.hero-buttons .btn{font-size:13px;padding:13px 17px}.hero-foot{margin-top:23px;font-size:11px}.hero-art{height:430px;width:100%;margin-top:7px}.halo{width:350px;height:350px;top:37px;left:calc(50% - 175px)}.hero-phone{width:290px;top:18px;left:calc(50% - 145px);right:auto;transform:rotate(8deg) scale(.87);transform-origin:center center}.phone-inner{padding:11px 18px 21px}.phone-stage{min-height:190px;margin:12px 0}.phone-stage .rotating{width:205px;height:205px}.phone-stage:before{width:190px;height:190px}.phone-info h3{font-size:21px}.float-sticker{font-size:13px;padding:10px 11px;box-shadow:4px 5px 0 var(--ink)}.sticker-1{left:0;top:76px}.sticker-2{right:0;bottom:77px;font-size:16px}.sticker-circle{width:66px;height:66px;font-size:15px;top:280px;left:7px}.star-a{left:7px;bottom:45px;font-size:60px}.ticker-group{font-size:12px;gap:20px}.section{padding:80px 0}.section-top{display:block;margin-bottom:30px}.section h2{font-size:clamp(36px,9vw,53px);margin-top:12px}.section-desc{margin:15px 0 0;font-size:14px;max-width:unset}.mood-layout{grid-template-columns:1fr;gap:25px}.mood-btn{padding:17px;min-height:102px;border-radius:17px}.mood-btn strong{font-size:17px}.mood-btn small{font-size:10px}.mood-btn .mood-emoji{font-size:31px}.mood-btn:nth-child(5){min-height:87px}.mood-btn:nth-child(5) strong{font-size:19px}.mood-btn:nth-child(5) .mood-emoji{font-size:40px}.result-card{min-height:540px;border-radius:26px;padding:24px}.result-data h3{font-size:37px}.statement{padding:61px 0}.statement .container{align-items:start;display:block}.statement h2{font-size:35px}.statement p{font-size:14px;margin-top:20px}.stamp{width:95px;height:95px;font-size:13px;margin:20px 0 0 auto}.feature-grid{grid-template-columns:1fr;gap:14px}.feature-card{min-height:270px;padding:29px;border-radius:24px}.feature-card h3{font-size:28px}.feature-card .feature-icon{font-size:150px}.feature-c .feature-icon{font-size:135px}.steps-layout{grid-template-columns:1fr;gap:13px}.how-step{min-height:175px;padding:25px}.how-step .step-no{font-size:49px}.how-step h3{margin-top:7px;font-size:22px}.how-step .step-icon{font-size:49px}.final-cta{padding:78px 0}.final-cta .container{display:block}.final-cta h2{font-size:55px}.final-cta p{font-size:15px}.final-icon{width:190px;height:190px;margin:49px auto 0}.final-icon:before{width:197px;height:197px}.final-icon span{font-size:113px}.faq-grid{grid-template-columns:1fr;gap:28px}.faq-grid h2{font-size:46px}.faq-list summary{font-size:14px}.footer-row{display:block}.footer-right{text-align:left;margin-top:31px}.footer-bottom{display:block;line-height:2}.mobile-cta{display:block;position:fixed;z-index:100;bottom:0;left:0;right:0;padding:11px 18px calc(11px + env(safe-area-inset-bottom));background:rgba(255,250,240,.94);box-shadow:0 -3px 20px rgba(0,0,0,.08);backdrop-filter:blur(18px)}.mobile-cta a{display:flex;justify-content:center;width:100%;padding:13px 20px;font-size:13px}.footer{padding-bottom:100px}.toast{bottom:90px;width:calc(100% - 48px)}}
 @media (max-width:365px){.brand-text{font-size:18px}.nav .btn{font-size:10px}.hero h1{font-size:53px}.hero-buttons{gap:8px}.hero-buttons .btn{font-size:11px}.mood-btn{padding:14px}.mood-btn strong{font-size:15px}.float-sticker{font-size:11px}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.ticker-track{animation:none}.reveal{opacity:1;transform:none;transition:none}.btn,.mood-btn,.toast,.food-disc .disc{transition:none}}
+
+/* Privacy-first analytics controls */
+.analytics-consent[hidden]{display:none!important}
+.analytics-consent{position:fixed;z-index:9999;bottom:20px;left:20px;width:min(420px,calc(100vw - 40px));padding:20px 22px;border-radius:20px;color:#17201f;background:#fffdf7;border:1px solid #d6e0d6;box-shadow:0 15px 50px rgba(0,0,0,.22);line-height:1.6;font-size:13px}
+.analytics-consent strong{display:block;font-size:17px;margin-bottom:7px}.analytics-consent p{margin:0 0 14px;color:#4c5b56}.analytics-actions{display:flex;gap:9px;flex-wrap:wrap}.analytics-actions button{border:0;border-radius:10px;padding:11px 18px;font-weight:800}.analytics-actions .analytics-accept{background:#147f78;color:white}.analytics-actions .analytics-reject{background:#e5ece9;color:#17201f}
+.analytics-settings{font:inherit;border:1px solid #67746f;border-radius:6px;background:transparent;color:inherit;padding:4px 8px;font-size:11px;margin-top:9px;cursor:pointer}
+
 </style>
 </head>
 <body>
@@ -137,6 +144,7 @@
 </div></div></section>
 </main>
 <footer class="footer"><div class="container"><div class="footer-row"><div><div class="brand"><span class="brand-symbol" aria-hidden="true"><svg viewBox="0 0 28 28" fill="none"><rect x="5" y="9" width="18" height="13" rx="3" fill="#fff"/><path d="M9 9V7c0-3 10-3 10 0v2" stroke="#fff" stroke-width="2.4"/><circle cx="11" cy="16" r="1.4" fill="#18231f"/><circle cx="17" cy="16" r="1.4" fill="#18231f"/><path d="M12 19h4" stroke="#18231f" stroke-width="1.8" stroke-linecap="round"/></svg></span><span class="brand-text">배달의민족<span>MENU MOOD LAB · CONCEPT</span></span></div><p>본 사이트는 2026년 웹 퍼블리싱 수업을 위해 제작된 <b>비공식 학습용 랜딩페이지</b>입니다. 배달의민족 및 ㈜우아한형제들과 제휴·운영 관계가 없으며, 이 페이지에서 실제 상품을 구매하거나 할인 혜택을 받을 수 없습니다.</p></div><div class="footer-right"><strong>MENU MOOD LAB ®</strong>DESIGNED FOR WEB CLASS<br>RESPONSIVE LANDING PAGE · 2026</div></div><div class="footer-bottom"><span>© 2026 MENU MOOD LAB. NON-COMMERCIAL DESIGN CONCEPT.</span><span>MADE WITH CURIOSITY & GOOD FOOD. ✳</span></div></div></footer>
+ <button id="analytics-settings" class="analytics-settings" type="button">방문 분석 설정</button>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
 <div class="mobile-cta"><a href="#discover" class="btn btn-dark">오늘의 메뉴 추천받기 <span aria-hidden="true">↗</span></a></div>
 <script>
@@ -167,5 +175,12 @@
  updateMenu();
 })();
 </script>
+
+<div id="analytics-consent" class="analytics-consent" hidden role="dialog" aria-label="방문 분석 선택" aria-describedby="analytics-description">
+ <strong>방문 분석에 동의하시나요?</strong>
+ <p id="analytics-description">Amplitude로 페이지 방문과 메뉴 선택·추천·저장 버튼의 사용 통계를 수집합니다. 개인 입력 내용은 수집하지 않습니다. 동의하지 않아도 사이트를 사용할 수 있으며 아래 '분석 설정'에서 선택을 바꿀 수 있습니다.</p>
+ <div class="analytics-actions"><button class="analytics-accept" type="button" id="analytics-accept">동의하고 이용</button><button class="analytics-reject" type="button" id="analytics-reject">동의하지 않음</button></div>
+</div>
+<script defer src="./analytics.js"></script>
 </body>
 </html>
